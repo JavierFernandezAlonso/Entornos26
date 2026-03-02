@@ -1,5 +1,5 @@
 # Entornos26
-# Depuración de una aplicación en Java
+# Depuración de código
 
 ## Sobre mí 😊👇
 - Estudiante de Desarrollo de Aplicaciones Multiplataforma
