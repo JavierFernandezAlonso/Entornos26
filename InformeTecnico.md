@@ -18,6 +18,6 @@ return email.contains("@");
 El primer valor de submitContactForm es el nombre y el segundo es el email. Como el valor del email es "" y este no contiene "@", el programa no asimila el valor del correo electrónico. Al no estar contemplada la excepción para valores nulos o vacíos, el programa simplemente deja el valor en blanco. 
 
 ## 3. Propuesta de solución
-Hay más de una solución posible para el problema:
+Hay más de una solución posible para el problema, aunque me he decantado por aplicar la primera opción:
 - Cambiar submitContactForm("", "") para introducir los valores: submitContactForm("Juan", "juan@mail.com")
 - Incluir en el método para validar el email un boolean falso si el valor del email es nulo o vacío. 
