@@ -12,7 +12,7 @@ Al compilar la aplicación en Eclipse, el formulario se procesa correctamente, p
 - En MainApp: 
 línea 13: userController.createUser("Juan", "juan@mail.com");
 línea 17: contactController.submitContactForm("", "");
--En la clase Validator se incluye el método para validar el email, que contiene:
+- En la clase Validator se incluye el método para validar el email, que contiene:
 return email.contains("@");
 
 El primer valor de submitContactForm es el nombre y el segundo es el email. Como el valor del email es "" y este no contiene "@", el programa no asimila el valor del correo electrónico. Al no estar contemplada la excepción para valores nulos o vacíos, el programa simplemente deja el valor en blanco. 
