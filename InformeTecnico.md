@@ -9,8 +9,8 @@ contacto.
 Al compilar la aplicación en Eclipse, el formulario se procesa correctamente, pero quedan campos vacíos. La variable name sí se recoge al principio del formulario, pero la variable email no es asimilada. 
 
 ## 2. Análisis técnico
-- En MainApp: 
-línea 13: userController.createUser("Juan", "juan@mail.com");
+- En MainApp:<br> 
+línea 13: userController.createUser("Juan", "juan@mail.com");<br>
 línea 17: contactController.submitContactForm("", "");
 - En la clase Validator se incluye el método para validar el email, que contiene:
 return email.contains("@");
