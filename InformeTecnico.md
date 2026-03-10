@@ -19,5 +19,5 @@ El primer valor de submitContactForm es el nombre y el segundo es el email. Como
 
 ## 3. Propuesta de solución
 Hay más de una solución posible para el problema:
-a) Cambiar submitContactForm("", "") para introducir los valores: submitContactForm("Juan", "juan@mail.com")
-b) Incluir en el método para validar el email un boolean falso si el valor del email es nulo o vacío. 
+- Cambiar submitContactForm("", "") para introducir los valores: submitContactForm("Juan", "juan@mail.com")
+- Incluir en el método para validar el email un boolean falso si el valor del email es nulo o vacío. 
